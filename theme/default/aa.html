@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="content-type" content="charset=UTF-8" />
+<script>
+window.addEventListener("load", function (ev) {
+  var canvas = document.createElement("canvas");
+  canvas.width = canvas.height = 256;
+  var c2d = canvas.getContext("2d");
+  // dice texture
+  var faces = [
+    {text: "壱", rot: 0, x: 96, y: 32},
+    {text: "弐", rot: 180, x: 96, y: 96},
+    {text: "参", rot: 90, x: 32, y: 96},
+    {text: "四", rot: 90, x: 160, y: 96},
+    {text: "伍", rot: 180, x: 96, y: 224},
+    {text: "六", rot: 0, x: 96, y: 160},
+  ];
+  faces.forEach(function (face) {
+    c2d.save();
+    var rad = face.rot * Math.PI / 180;
+    var sin = Math.sin(rad);
+    var cos = Math.cos(rad);
+    c2d.setTransform(cos, -sin, sin, cos, face.x, face.y);
+    c2d.fillStyle = "lightgray";
+    c2d.fillRect(-32, -32, 64, 64);
+    c2d.strokeStyle = "black";
+    c2d.lineWidth = 3;
+    c2d.strokeRect(-32, -32, 64, 64);
+    c2d.fillStyle = "black";
+    c2d.font = "bold 50px sans-serif";
+    c2d.textAlign = "center";
+    c2d.textBaseline = "middle";
+    console.log(c2d.measureText(face.text).width);
+    c2d.fillText(face.text, 0, 0);
+    c2d.restore();
+  });
+  var out = document.querySelector("#out");
+  out.width = out.height = 256;
+  var out2d = out.getContext("2d");
+  out2d.drawImage(canvas, 0, 0);
+  // [memo]
+  // texture coords for 6x4 vertices
+  var textureCoords = faces.map(function (face) {
+    var left = (face.x - 32) / 256;
+    var right = (face.x + 32) / 256;
+    var top = (face.y - 32) / 256;
+    var bottom = (face.y + 32) / 256;
+    return [[left, top], [left, bottom], [right, bottom], [right, top]];
+  });
+  // positions of 2x2 cube for the each textureCoords;
+  var positions = [
+    [[-1, -1, -1, 1], [-1, +1, -1, 1], [+1, +1, -1, 1], [+1, -1, -1, 1]], // 1
+    [[-1, +1, -1, 1], [-1, +1, +1, 1], [+1, +1, +1, 1], [+1, +1, -1, 1]], // 2
+    [[-1, -1, +1, 1], [-1, +1, +1, 1], [-1, +1, -1, 1], [-1, -1, -1, 1]], // 3
+    [[+1, -1, -1, 1], [+1, +1, -1, 1], [+1, +1, +1, 1], [+1, -1, +1, 1]], // 4
+    [[-1, -1, +1, 1], [-1, -1, -1, 1], [+1, -1, -1, 1], [+1, -1, +1, 1]], // 5
+    [[-1, +1, +1, 1], [-1, -1, +1, 1], [+1, -1, +1, 1], [+1, +1, +1, 1]], // 6
+  ];
+  // triangles index list for the position
+  var indices = positions.map(function (pos, i) {
+    return [[i+0, i+1, i+2], [i+2, i+3, i+0]];
+  });
+  
+  var data = {
+    vertexSpec: [
+      {name: "position", type: "FLOAT", count: 4},
+      {name: "textureCoord", type: "FLOAT", count: 2},
+    ],
+    vertices: [],
+    indices: [],
+  };
+  positions.forEach(function (face, i) {
+    face.forEach(function (pos, j) {
+      data.vertices.push([pos, textureCoords[i][j]]);
+    });
+  });
+  indices.forEach(function (face) {
+    face.forEach(function (triangle) {
+      data.indices.push(triangle);
+    });
+  });
+  console.log(JSON.stringify(data));
+  
+}, false);
+</script>
+</head>
+<body>
+<canvas id="out"></canvas>
+</body>
+</html>

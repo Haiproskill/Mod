@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /download/arctemp/
+Disallow: /files/forum/attach/
+Allow: /
+
+Sitemap: https://www.soicaulode.club/sitemap.xml

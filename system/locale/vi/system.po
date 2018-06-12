@@ -1,0 +1,402 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: johncms\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2017-04-05 06:23-0400\n"
+"Last-Translator: mobiCMS <dev@mobicms.net>\n"
+"Language-Team: Vietnamese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: crowdin.com\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Poedit-KeywordsList: _t;_p:1,2\n"
+"X-Poedit-SearchPath-0: login.php\n"
+"X-Poedit-SearchPath-1: go.php\n"
+"X-Poedit-SearchPath-2: exit.php\n"
+"X-Poedit-SearchPath-3: system/johncms\n"
+"X-Poedit-SearchPath-4: system/head.php\n"
+"X-Poedit-SearchPath-5: system/end.php\n"
+"X-Poedit-SearchPath-6: system/mainmenu.php\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: johncms\n"
+"X-Crowdin-Language: vi\n"
+"X-Crowdin-File: /system/system.pot\n"
+"Language: vi_VN\n"
+
+msgid "Are you sure you want to leave the site?"
+msgstr "Bạn có chắc chắn muốn đăng xuất khỏi trang?"
+
+msgid "Logout"
+msgstr "Đăng xuất"
+
+msgid "Exit"
+msgstr "Thoát"
+
+msgid "Cancel"
+msgstr "Hủy bỏ"
+
+msgid "Select language"
+msgstr "Chọn ngôn ngữ"
+
+msgid "Default"
+msgstr "Mặc định"
+
+msgid "Apply"
+msgstr "Áp dụng"
+
+msgid "Back"
+msgstr "Quay lại"
+
+msgid "External Link"
+msgstr "Liên kết ngoài"
+
+msgid "ATTENTION!"
+msgstr "Chú Ý!"
+
+msgid "You are going to leave our site and go to an external link"
+msgstr "Bạn đang rời khỏi trang web của chúng tôi và đi đến một trang web khác"
+
+msgid "Administration of our site is not responsible for the content of external sites"
+msgstr "Chúng tôi không chịu trách nhiệm về nội dung của những trang web đó"
+
+msgid "It is recommended not to specify your data, relating to %s (Login, Password), on third party sites"
+msgstr "Không nên sử dụng <span class="text--bold">Tên đăng nhập</span> và <span class="text--bold">Mật khẩu</span> của bạn tại %s để truy cập các trang web lạ"
+
+msgid "Go to Link"
+msgstr "Vào liên kết"
+
+msgid "Home"
+msgstr "Trang chủ"
+
+msgid "Login"
+msgstr "Đăng nhập"
+
+msgid "You have not entered login"
+msgstr "Bạn chưa nhập thông tin đăng nhập"
+
+msgid "You have not entered password"
+msgstr "Bạn chưa nhập mật khẩu"
+
+msgid "Nickname"
+msgstr "Tên Bạn"
+
+msgid "Invalid length"
+msgstr "Chiều dài không hợp lệ"
+
+msgid "Password"
+msgstr "Mật khẩu"
+
+msgid "The security code is not correct"
+msgstr "Mã xác minh không đúng"
+
+msgid "Verification code"
+msgstr "Mã xác minh"
+
+msgid "Enter verification code"
+msgstr "Nhập mã minh"
+
+msgid "Continue"
+msgstr "Tiếp tục"
+
+msgid "Sorry, but your request for registration is not considered yet. Please, be patient."
+msgstr "Xin lỗi, yêu cầu đăng ký của bạn đang chờ được kiểm duyệt. Xin vui lòng quay lại sau.!!!"
+
+msgid "Enter site"
+msgstr "Vào trang web"
+
+msgid "Authorization failed"
+msgstr "Tài khoản hoặc mật khẩu không đúng.!!"
+
+msgid "Username"
+msgstr "Tên tài khoản"
+
+msgid "Remember"
+msgstr "Ghi nhớ"
+
+msgid "Registration"
+msgstr "Đăng ký Thành Viên"
+
+msgid "Forgot password?"
+msgstr "Quên mật khẩu?"
+
+msgid "Site News"
+msgstr "Trang Tin tức"
+
+msgid "Hi"
+msgstr "Xin chào"
+
+msgid "Guest"
+msgstr "Khách"
+
+msgid "Personal"
+msgstr "Cá nhân"
+
+msgid "Ban"
+msgstr "Cấm"
+
+msgid "Details"
+msgstr "Thông tin chi tiết"
+
+msgid "System"
+msgstr "Hệ thống"
+
+msgid "Mail"
+msgstr "Thư"
+
+msgid "Guestbook"
+msgstr "Phòng trò truyện"
+
+msgid "Comments"
+msgstr "Bình luận"
+
+msgid "Unread"
+msgstr "Chưa đọc"
+
+msgid "Edit List"
+msgstr "Danh sách chỉnh sửa"
+
+msgid "Add Smilies"
+msgstr "Thêm biểu tượng mặt cười"
+
+msgid "Bold"
+msgstr "In đậm"
+
+msgid "Italic"
+msgstr "In nghiêng"
+
+msgid "Underline"
+msgstr "Gạch chân"
+
+msgid "Strike"
+msgstr "Đánh"
+
+msgid "Text Color"
+msgstr "Màu chữ"
+
+msgid "Background Color"
+msgstr "Màu nền"
+
+msgid "List"
+msgstr "Danh sách"
+
+msgid "Spoiler"
+msgstr "Nút nhanh"
+
+msgid "Quote"
+msgstr "Trích dẫn"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "Code"
+msgstr "Mã code"
+
+msgid "Smilies"
+msgstr "Biểu tượng mặt cười"
+
+msgid "Added"
+msgstr "Thêm vào"
+
+msgid "Reply"
+msgstr "Phản hồi"
+
+msgid "Administrator already replied to this message"
+msgstr "Quản trị viên đã trả lời thư này"
+
+msgid "Wrong data"
+msgstr "Lỗi dữ liệu"
+
+msgid "Edit"
+msgstr "Chỉnh sửa"
+
+msgid "You cannot edit posts of higher administration"
+msgstr "Bạn không thể sửa bài viết của người chức cao hơn"
+
+msgid "Delete"
+msgstr "Xóa"
+
+msgid "Do you really want to delete?"
+msgstr "Bạn có thực sự muốn xóa không?"
+
+msgid "Clear all messages from this user"
+msgstr "Xóa tất cả các tin nhắn từ người dùng này"
+
+msgid "Clear"
+msgstr "Xoá"
+
+msgid "Edited"
+msgstr "Đã sửa"
+
+msgid "The list is empty"
+msgstr "Danh sách trống"
+
+msgid "Total"
+msgstr "Tổng"
+
+msgid "To Page"
+msgstr "Đến trang"
+
+msgid "Message"
+msgstr "Nội dung tin nhắn"
+
+msgid "Send"
+msgstr "Gửi"
+
+msgid "Text is too short"
+msgstr "Văn bản này quá ngắn"
+
+msgid "You cannot add the message so often<br>Please, wait"
+msgstr "Bạn không được liên tục gửi nội dung<br>Hãy chờ"
+
+msgid "seconds"
+msgstr "giây"
+
+msgid "Message already exists"
+msgstr "Bài viết đã tồn tại"
+
+msgid "Show for Period"
+msgstr "Hiển thị theo thời gian"
+
+msgid "Last activity"
+msgstr "Lần hoạt động cuối"
+
+msgid "show more"
+msgstr "xem thêm"
+
+msgid "Discuss"
+msgstr "Thảo luận"
+
+msgid "Today"
+msgstr "Hôm nay"
+
+msgid "Yesterday"
+msgstr "Hôm qua"
+
+msgid "ERROR"
+msgstr "LỖI"
+
+msgid "List of Admins"
+msgstr "Danh sách quản trị viên"
+
+msgid "Watching the photo album"
+msgstr "Xem album ảnh"
+
+msgid "List of birthdays"
+msgstr "Danh sách ngày sinh nhật"
+
+msgid "Downloads"
+msgstr "Tải xuống"
+
+msgid "Reading the FAQ"
+msgstr "Đọc câu hỏi thường gặp"
+
+msgid "Forum"
+msgstr "Diễn đàn"
+
+msgid "Forum Files"
+msgstr "Tập tin diễn đàn"
+
+msgid "Looking, who in Forum?"
+msgstr "Tìm kiếm, người dùng trong diễn đàn?"
+
+msgid "Here, in the list"
+msgstr "Tại đây, trong danh sách"
+
+msgid "On the Homepage"
+msgstr "Trên trang chủ"
+
+msgid "Library"
+msgstr "Thư viện"
+
+msgid "Personal correspondence"
+msgstr "Thư cá nhân"
+
+msgid "Reading the news"
+msgstr "Đọc tin tức"
+
+msgid "Who is online?"
+msgstr "Ai đang online?"
+
+msgid "Profile"
+msgstr "Hồ sơ"
+
+msgid "Personal Profile"
+msgstr "Hồ sơ cá nhân"
+
+msgid "Registered on the site"
+msgstr "Đăng ký trên trang"
+
+msgid "List of users"
+msgstr "Danh sách người dùng"
+
+msgid "Watching Top 10 Users"
+msgstr "Xem Top 10 người dùng"
+
+msgid "Last Visit"
+msgstr "Lần đăng nhập cuối"
+
+msgid "Browser"
+msgstr "Trình duyệt"
+
+msgid "IP address"
+msgstr "Địa chỉ IP"
+
+msgid "IP History"
+msgstr "Lịch sử IP"
+
+msgid "Day"
+msgid_plural "Days"
+msgstr[0] "Ngày"
+
+msgid "Information"
+msgstr "Thông tin"
+
+msgid "News archive"
+msgstr "Tin tức lưu trữ"
+
+msgid "Information, FAQ"
+msgstr "Thông tin, câu hỏi thường gặp"
+
+msgid "Communication"
+msgstr "Thông tin"
+
+msgid "Useful"
+msgstr "Hữu ích"
+
+msgid "Community"
+msgstr "Cộng đồng"
+
+msgid "Users"
+msgstr "Thành viên"
+
+msgid "Photo Albums"
+msgstr "Albums hình ảnh"
+
+msgid "For registered users only"
+msgstr "Chỉ dành cho thành viên đăng nhập"
+
+msgid "File size exceed"
+msgstr "Dung lượng tập tin vượt quá"
+
+msgid "You may upload only files with a name and one extension <b>(name.ext</b>). Files without a name, extension, or with double extension are forbidden."
+msgstr "Chỉ được phép gửi file với tên và định dạng <b> (name.ext </b>). Hoặc tập tin không có tên, gia hạn, hoặc với dấu chấm tăng gấp đôi."
+
+msgid "The forbidden file format.<br>You can upload files of the following extension"
+msgstr "Định dạng tập tin không hợp lệ.<br>Bạn có thể tải lên các tập tin có định dạng sau"
+
+msgid "The time allotted for the file upload has expired"
+msgstr "Thời gian được phép tải lên các tập tin đã hết"
+
+msgid "File name contains invalid characters"
+msgstr "Tên tập tin chứa kí tự không cho phép"
+
+msgid "File attached"
+msgstr "Tập tin đính kèm thành công"
+
+msgid "Error uploading file"
+msgstr "Lỗi tải lên tập tin"
+
+msgid "The number of files exceeds the limit"
+msgstr "Số tệp tin vượt quá giới hạn"
