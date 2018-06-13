@@ -140,6 +140,7 @@ if ($systemUser->isValid()) {
 //if($detect->isMobile()) {
 	echo '<div class="text-center sub gray">© 2018 Soi Cầu Lô Đề ( 01214272713 ).</div><br />';
 //}
+?>
 
 <div class="toTop"></div>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.1/jquery.form.min.js"></script>
