@@ -1551,7 +1551,7 @@ $(document).ready(function() {
 		}
 	});
 	$(window).resize(function () {
-		if($(window).width() >= '1024') {
+		if($(window).width() >= '1017') {
 			if ($('#cd-navigation').css('display') != 'flex') {
 				$('#cd-navigation').css({'display' : 'flex'});
 			}
@@ -2678,7 +2678,7 @@ $(document).ready(function() {
 		} else if( currentTop - previousTop > scrollDelta && currentTop > scrollOffset) {
 			mainHeader.addClass('is-hidden');
 			mainHeader.removeClass('shadow--2dp');
-			if ($(window).width() < '1024') {
+			if ($(window).width() < '1017') {
 				if ($('#cd-navigation').css('display') != "none") {
 					mainHeader.removeClass('nav-open');
 					menuHeader.slideUp();
@@ -2688,7 +2688,7 @@ $(document).ready(function() {
 	}
 
 	function startLoadingBar(){
-		if ($(window).width() < '1024') {
+		if ($(window).width() < '1017') {
 			mainHeader.removeClass('nav-open');
 			menuHeader.slideUp();
 		}
